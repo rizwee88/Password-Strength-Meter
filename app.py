@@ -52,4 +52,4 @@ if password:
     else:
         st.success("✅ Your password is strong!")
         # Footer with your name
-st.markdown("<p class='footer'>Created by <b>Muhammad Rizwan</b></p>", unsafe_allow_html=True)
+
