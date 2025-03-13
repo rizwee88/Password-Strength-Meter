@@ -33,7 +33,6 @@ def check_password_strength(password):
 
 # Streamlit UI
 st.title("🔐 Password Strength Meter")
-
 password = st.text_input("Enter your password:", type="password")
 
 if password:
@@ -52,4 +51,4 @@ if password:
     else:
         st.success("✅ Your password is strong!")
         # Footer with your name
-
+st.markdown("<p class='footer'>Created by <b>Muhammad Rizwan</b></p>", unsafe_allow_html=True)
